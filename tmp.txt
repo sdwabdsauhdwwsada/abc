@@ -1,0 +1,36 @@
+真机 快速产生一台虚拟机clone-vm7
+[root@room9pc01 ~]# clone-vm7
+Enter VM number: 6
+1.将虚拟机的名字修改为B
+2.以root用户登陆虚拟机B,密码为123456
+
+虚拟机B要求:
+3.配置永久的主机名:pc207.tedu.cn
+4.配置eth0网卡 永久的IP地址: 192.168.4.207/24
+5.检测防火墙是否开启,关闭防护墙
+# systemctl status firewalld
+6.检测SELinux是否开启,关闭SELinux
+# getenforce 
+Disabled
+7.搭建Yum仓库,利用真机ftp://192.168.4.254/rhel7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
